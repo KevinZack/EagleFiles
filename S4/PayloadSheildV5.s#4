@@ -240,16 +240,16 @@
 <pad name="NOTUSED2" x="1.27" y="8.89" drill="1" diameter="1.9304"/>
 <pad name="NOTUSED1" x="1.27" y="11.43" drill="1" diameter="1.9304" shape="square"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="19.05" y2="0" width="0.127" layer="20"/>
-<wire x1="19.05" y1="0" x2="19.05" y2="15.24" width="0.127" layer="20"/>
-<wire x1="19.05" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="19.05" y2="0" width="0.127" layer="47"/>
+<wire x1="19.05" y1="0" x2="19.05" y2="15.24" width="0.127" layer="47"/>
+<wire x1="19.05" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="ADXL345+">
-<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.127" layer="20"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.127" layer="47"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.127" layer="47"/>
 <pad name="GND" x="1.27" y="1.27" drill="0.8" diameter="1.9304"/>
 <pad name="VCC" x="3.81" y="1.27" drill="0.8" diameter="1.9304"/>
 <pad name="CD" x="6.35" y="1.27" drill="0.8" diameter="1.9304"/>
@@ -273,7 +273,7 @@
 <pad name="B1" x="7.62" y="2.54" drill="0.8" diameter="1.9304"/>
 <pad name="GDN" x="10.16" y="2.54" drill="0.8" diameter="1.9304"/>
 <text x="1.27" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
-<circle x="8.89" y="8.89" radius="8.51941875" width="0.127" layer="20"/>
+<circle x="8.89" y="8.89" radius="8.51941875" width="0.127" layer="47"/>
 </package>
 <package name="BMP085">
 <wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="21"/>
@@ -289,10 +289,10 @@
 <hole x="2.54" y="2.54" drill="3.2"/>
 <hole x="12.7" y="2.54" drill="3.2"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.127" layer="20"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="15.24" width="0.127" layer="20"/>
-<wire x1="15.24" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.127" layer="47"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="15.24" width="0.127" layer="47"/>
+<wire x1="15.24" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="HIH6130">
 <wire x1="17.78" y1="15.24" x2="17.78" y2="0" width="0.127" layer="21"/>
@@ -308,10 +308,10 @@
 <hole x="2.54" y="12.7" drill="3.2"/>
 <hole x="15.24" y="12.7" drill="3.2"/>
 <text x="0" y="-3.81" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="17.78" y2="0" width="0.127" layer="20"/>
-<wire x1="17.78" y1="0" x2="17.78" y2="15.24" width="0.127" layer="20"/>
-<wire x1="17.78" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.127" layer="47"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="15.24" width="0.127" layer="47"/>
+<wire x1="17.78" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="MAG3110">
 <wire x1="0" y1="0" x2="0" y2="13.97" width="0.127" layer="21"/>
@@ -326,10 +326,10 @@
 <hole x="2.54" y="11.43" drill="3.2"/>
 <hole x="10.16" y="11.43" drill="3.2"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="20"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="13.97" width="0.127" layer="20"/>
-<wire x1="12.7" y1="13.97" x2="0" y2="13.97" width="0.127" layer="20"/>
-<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="47"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="13.97" width="0.127" layer="47"/>
+<wire x1="12.7" y1="13.97" x2="0" y2="13.97" width="0.127" layer="47"/>
+<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="LD1117V33">
 <pad name="GND" x="2.54" y="1.27" drill="0.8" diameter="1.4224"/>
@@ -343,10 +343,10 @@
 <wire x1="10.16" y1="3.175" x2="0" y2="3.175" width="0.127" layer="21"/>
 <wire x1="10.16" y1="3.175" x2="10.16" y2="0" width="0.127" layer="21"/>
 <text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.127" layer="20"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="5.08" width="0.127" layer="20"/>
-<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.127" layer="20"/>
-<wire x1="0" y1="5.08" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.127" layer="47"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="5.08" width="0.127" layer="47"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.127" layer="47"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="EM407CONNECTOR">
 <wire x1="0" y1="0" x2="0" y2="13.97" width="0.127" layer="21"/>
@@ -363,10 +363,10 @@
 <hole x="20.32" y="2.54" drill="3.2"/>
 <hole x="2.54" y="2.54" drill="3.2"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="20"/>
-<wire x1="22.86" y1="0" x2="22.86" y2="13.97" width="0.127" layer="20"/>
-<wire x1="22.86" y1="13.97" x2="0" y2="13.97" width="0.127" layer="20"/>
-<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="47"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="13.97" width="0.127" layer="47"/>
+<wire x1="22.86" y1="13.97" x2="0" y2="13.97" width="0.127" layer="47"/>
+<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="GPS">
 <wire x1="0" y1="0" x2="0" y2="27.94" width="0.127" layer="21"/>
@@ -381,10 +381,10 @@
 <wire x1="5.08" y1="27.94" x2="0" y2="27.94" width="0.127" layer="21"/>
 <hole x="2.54" y="22.86" drill="3.2"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="27.94" y2="0" width="0.127" layer="20"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="20"/>
-<wire x1="27.94" y1="27.94" x2="0" y2="27.94" width="0.127" layer="20"/>
-<wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0.127" layer="47"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="47"/>
+<wire x1="27.94" y1="27.94" x2="0" y2="27.94" width="0.127" layer="47"/>
+<wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="LOGICCONVERTER">
 <description>Logic Level Converter 5V -&gt; 3.3V</description>
@@ -405,10 +405,10 @@
 <wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="21"/>
 <wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="21"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="20"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="20"/>
-<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="47"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="47"/>
+<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="ARDUINOR3">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin</description>
@@ -8445,17 +8445,17 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="CPOL">
-<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
-<text x="1.143" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
-<text x="1.143" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<symbol name="CPOL-US">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9232,10 +9232,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPOL-EU" prefix="C" uservalue="yes">
-<description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
+<deviceset name="CPOL-US" prefix="C" uservalue="yes">
+<description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="G$1" symbol="CPOL-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CT3216" package="CT3216">
@@ -10786,7 +10786,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="UD-6,3X8,8" package="UD-6,3X5,8_NICHICON">
+<device name="UD-6,3X5,8" package="UD-6,3X5,8_NICHICON">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -10943,8 +10943,8 @@ Source: DCJ0202.pdf</description>
 <part name="HIH6310" library="NASAEPO" deviceset="HIH6130" device=""/>
 <part name="MAG3110" library="NASAEPO" deviceset="MAG3110" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="100nF"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10uF"/>
+<part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100nF"/>
 <part name="3.3V" library="NASAEPO" deviceset="LD1117V33" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>

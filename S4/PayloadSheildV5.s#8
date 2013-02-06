@@ -325,7 +325,7 @@
 <pad name="VCC" x="11.43" y="1.27" drill="0.8" diameter="1.9304"/>
 <hole x="2.54" y="11.43" drill="3.2"/>
 <hole x="10.16" y="11.43" drill="3.2"/>
-<text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
 <wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="20"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="13.97" width="0.127" layer="20"/>
 <wire x1="12.7" y1="13.97" x2="0" y2="13.97" width="0.127" layer="20"/>
@@ -405,6 +405,10 @@
 <wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="21"/>
 <wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="21"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="20"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="20"/>
+<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="20"/>
 </package>
 <package name="ARDUINOR3">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin</description>
@@ -10973,7 +10977,7 @@ Source: DCJ0202.pdf</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="100nF"/>
-<part name="3.3VCON" library="NASAEPO" deviceset="LD1117V33" device=""/>
+<part name="3.3V" library="NASAEPO" deviceset="LD1117V33" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="7V-12V" library="con-jack" deviceset="DCJ0202" device=""/>
@@ -11052,7 +11056,7 @@ Source: DCJ0202.pdf</description>
 <instance part="P+3" gate="1" x="96.52" y="38.1" rot="R270"/>
 <instance part="C1" gate="G$1" x="111.76" y="91.44"/>
 <instance part="C2" gate="G$1" x="76.2" y="91.44"/>
-<instance part="3.3VCON" gate="G$1" x="83.82" y="91.44"/>
+<instance part="3.3V" gate="G$1" x="83.82" y="91.44"/>
 <instance part="GND10" gate="1" x="93.98" y="78.74"/>
 <instance part="+3V7" gate="G$1" x="119.38" y="96.52" rot="R270"/>
 <instance part="7V-12V" gate="G$1" x="76.2" y="60.96"/>
@@ -11136,7 +11140,7 @@ Source: DCJ0202.pdf</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="111.76" y1="86.36" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="3.3VCON" gate="G$1" pin="GND"/>
+<pinref part="3.3V" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="93.98" y1="83.82" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
@@ -11214,7 +11218,7 @@ Source: DCJ0202.pdf</description>
 <wire x1="55.88" y1="144.78" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="3.3VCON" gate="G$1" pin="VOUT"/>
+<pinref part="3.3V" gate="G$1" pin="VOUT"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="109.22" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="96.52" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
@@ -11460,7 +11464,7 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="3.3VCON" gate="G$1" pin="VIN"/>
+<pinref part="3.3V" gate="G$1" pin="VIN"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="78.74" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="96.52" x2="76.2" y2="93.98" width="0.1524" layer="91"/>

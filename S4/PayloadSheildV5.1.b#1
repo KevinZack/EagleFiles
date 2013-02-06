@@ -176,7 +176,6 @@
 <text x="64.77" y="48.768" size="1.778" layer="25">HIH6130</text>
 <text x="47.752" y="11.176" size="1.778" layer="25">LV</text>
 <text x="56.896" y="11.176" size="1.778" layer="25">HV</text>
-<hole x="11.43" y="50.292" drill="6.35"/>
 </plain>
 <libraries>
 <library name="adafruit">

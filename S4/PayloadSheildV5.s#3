@@ -373,11 +373,6 @@
 <wire x1="0" y1="0" x2="27.94" y2="0" width="0.127" layer="21"/>
 <wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="21"/>
 <wire x1="27.94" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="21"/>
-<wire x1="17.78" y1="27.94" x2="17.78" y2="48.26" width="0.127" layer="21"/>
-<wire x1="17.78" y1="48.26" x2="15.24" y2="50.8" width="0.127" layer="21"/>
-<wire x1="15.24" y1="50.8" x2="7.62" y2="50.8" width="0.127" layer="21"/>
-<wire x1="7.62" y1="50.8" x2="5.08" y2="48.26" width="0.127" layer="21"/>
-<wire x1="5.08" y1="48.26" x2="5.08" y2="27.94" width="0.127" layer="21"/>
 <wire x1="5.08" y1="27.94" x2="0" y2="27.94" width="0.127" layer="21"/>
 <hole x="2.54" y="22.86" drill="3.2"/>
 <text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
@@ -385,6 +380,7 @@
 <wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="47"/>
 <wire x1="27.94" y1="27.94" x2="0" y2="27.94" width="0.127" layer="47"/>
 <wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="47"/>
+<wire x1="5.08" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="21"/>
 </package>
 <package name="LOGICCONVERTER">
 <description>Logic Level Converter 5V -&gt; 3.3V</description>
@@ -4866,10 +4862,6 @@ grid 2.54 mm, diameter 5 mm</description>
 <package name="E2,5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 6 mm</description>
-<wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
@@ -4883,6 +4875,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+<text x="-3.81" y="0" size="1.27" layer="21">+</text>
 </package>
 <package name="E2,5-7">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;

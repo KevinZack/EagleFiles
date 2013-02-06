@@ -203,17 +203,12 @@
 <pad name="NOTUSED3" x="1.27" y="6.35" drill="1" diameter="1.9304"/>
 <pad name="NOTUSED2" x="1.27" y="8.89" drill="1" diameter="1.9304"/>
 <pad name="NOTUSED1" x="1.27" y="11.43" drill="1" diameter="1.9304" shape="square"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="19.05" y2="0" width="0.127" layer="47"/>
-<wire x1="19.05" y1="0" x2="19.05" y2="15.24" width="0.127" layer="47"/>
-<wire x1="19.05" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="ADXL345+">
-<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.127" layer="47"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.127" layer="47"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="21"/>
+<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.127" layer="21"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.127" layer="21"/>
 <pad name="GND" x="1.27" y="1.27" drill="0.8" diameter="1.9304"/>
 <pad name="VCC" x="3.81" y="1.27" drill="0.8" diameter="1.9304"/>
 <pad name="CD" x="6.35" y="1.27" drill="0.8" diameter="1.9304"/>
@@ -224,11 +219,7 @@
 <pad name="SCL" x="19.05" y="1.27" drill="0.8" diameter="1.9304"/>
 <hole x="2.54" y="12.7" drill="3.2"/>
 <hole x="17.78" y="12.7" drill="3.2"/>
-<text x="0" y="-3.81" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="21"/>
-<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="21"/>
-<wire x1="20.32" y1="15.24" x2="20.32" y2="0" width="0.127" layer="21"/>
-<wire x1="20.32" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="6.35" y="7.62" size="1.27" layer="21">ADXL345</text>
 </package>
 <package name="GAS">
 <circle x="8.89" y="8.89" radius="8.4" width="0.2032" layer="21"/>
@@ -236,8 +227,7 @@
 <pad name="H1" x="10.16" y="15.24" drill="0.8" diameter="1.9304"/>
 <pad name="B1" x="7.62" y="2.54" drill="0.8" diameter="1.9304"/>
 <pad name="GDN" x="10.16" y="2.54" drill="0.8" diameter="1.9304"/>
-<text x="1.27" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<circle x="8.89" y="8.89" radius="8.51941875" width="0.127" layer="47"/>
+<text x="1.27" y="7.62" size="2.032" layer="21">Gas Sensor</text>
 </package>
 <package name="BMP085">
 <wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="21"/>
@@ -252,11 +242,7 @@
 <pad name="SDA" x="13.97" y="13.97" drill="0.8" diameter="1.9304"/>
 <hole x="2.54" y="2.54" drill="3.2"/>
 <hole x="12.7" y="2.54" drill="3.2"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.127" layer="47"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="15.24" width="0.127" layer="47"/>
-<wire x1="15.24" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
+<text x="1.27" y="6.35" size="2.54" layer="21">BMP085</text>
 </package>
 <package name="HIH6130">
 <wire x1="17.78" y1="15.24" x2="17.78" y2="0" width="0.127" layer="21"/>
@@ -269,13 +255,9 @@
 <pad name="VDD" x="12.7" y="1.27" drill="0.9" diameter="1.6764"/>
 <pad name="GND" x="15.24" y="1.27" drill="0.9" diameter="1.6764"/>
 <wire x1="0" y1="0" x2="17.78" y2="0" width="0.127" layer="21"/>
+<text x="2.54" y="7.62" size="2.54" layer="21">HIH6130</text>
 <hole x="2.54" y="12.7" drill="3.2"/>
 <hole x="15.24" y="12.7" drill="3.2"/>
-<text x="0" y="-3.81" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="17.78" y2="0" width="0.127" layer="47"/>
-<wire x1="17.78" y1="0" x2="17.78" y2="15.24" width="0.127" layer="47"/>
-<wire x1="17.78" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="MAG3110">
 <wire x1="0" y1="0" x2="0" y2="13.97" width="0.127" layer="21"/>
@@ -289,16 +271,12 @@
 <pad name="VCC" x="11.43" y="1.27" drill="0.8" diameter="1.9304"/>
 <hole x="2.54" y="11.43" drill="3.2"/>
 <hole x="10.16" y="11.43" drill="3.2"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="47"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="13.97" width="0.127" layer="47"/>
-<wire x1="12.7" y1="13.97" x2="0" y2="13.97" width="0.127" layer="47"/>
-<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="47"/>
+<text x="2.54" y="6.35" size="1.27" layer="21">MAG3110</text>
 </package>
 <package name="LD1117V33">
-<pad name="GND" x="2.54" y="1.27" drill="0.8" diameter="1.4224"/>
-<pad name="VOUT" x="5.08" y="1.27" drill="0.8" diameter="1.4224"/>
-<pad name="VIN" x="7.62" y="1.27" drill="0.8" diameter="1.4224"/>
+<pad name="GND" x="2.54" y="1.27" drill="1.1176" shape="long" rot="R90"/>
+<pad name="VOUT" x="5.08" y="1.27" drill="1.1176" shape="long" rot="R90"/>
+<pad name="VIN" x="7.62" y="1.27" drill="1.1176" shape="long" rot="R90"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="3.175" width="0.127" layer="21"/>
 <wire x1="0" y1="3.175" x2="0" y2="4.445" width="0.127" layer="21"/>
@@ -306,11 +284,6 @@
 <wire x1="10.16" y1="4.445" x2="10.16" y2="3.175" width="0.127" layer="21"/>
 <wire x1="10.16" y1="3.175" x2="0" y2="3.175" width="0.127" layer="21"/>
 <wire x1="10.16" y1="3.175" x2="10.16" y2="0" width="0.127" layer="21"/>
-<text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.127" layer="47"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="5.08" width="0.127" layer="47"/>
-<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.127" layer="47"/>
-<wire x1="0" y1="5.08" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="EM407CONNECTOR">
 <wire x1="0" y1="0" x2="0" y2="13.97" width="0.127" layer="21"/>
@@ -326,60 +299,50 @@
 <hole x="20.32" y="11.43" drill="3.2"/>
 <hole x="20.32" y="2.54" drill="3.2"/>
 <hole x="2.54" y="2.54" drill="3.2"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="47"/>
-<wire x1="22.86" y1="0" x2="22.86" y2="13.97" width="0.127" layer="47"/>
-<wire x1="22.86" y1="13.97" x2="0" y2="13.97" width="0.127" layer="47"/>
-<wire x1="0" y1="13.97" x2="0" y2="0" width="0.127" layer="47"/>
+<text x="2.54" y="6.35" size="1.6764" layer="21">GS407 Connector</text>
 </package>
 <package name="GPS">
 <wire x1="0" y1="0" x2="0" y2="27.94" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="27.94" y2="0" width="0.127" layer="21"/>
 <wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="21"/>
 <wire x1="27.94" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="21"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="48.26" width="0.127" layer="21"/>
+<wire x1="17.78" y1="48.26" x2="15.24" y2="50.8" width="0.127" layer="21"/>
+<wire x1="15.24" y1="50.8" x2="7.62" y2="50.8" width="0.127" layer="21"/>
+<wire x1="7.62" y1="50.8" x2="5.08" y2="48.26" width="0.127" layer="21"/>
+<wire x1="5.08" y1="48.26" x2="5.08" y2="27.94" width="0.127" layer="21"/>
 <wire x1="5.08" y1="27.94" x2="0" y2="27.94" width="0.127" layer="21"/>
 <hole x="2.54" y="22.86" drill="3.2"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="27.94" y2="0" width="0.127" layer="47"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0.127" layer="47"/>
-<wire x1="27.94" y1="27.94" x2="0" y2="27.94" width="0.127" layer="47"/>
-<wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="47"/>
-<wire x1="5.08" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="21"/>
 </package>
 <package name="LOGICCONVERTER">
-<description>Logic Level Converter 5V -&gt; 3.3V</description>
-<pad name="TI02" x="1.27" y="1.27" drill="0.8" diameter="1.6764"/>
+<pad name="TXI2" x="1.27" y="1.27" drill="0.8" diameter="1.6764"/>
 <pad name="RXO2" x="1.27" y="3.81" drill="0.8" diameter="1.6764"/>
 <pad name="GND" x="1.27" y="6.35" drill="0.8" diameter="1.6764"/>
 <pad name="LV" x="1.27" y="8.89" drill="0.8" diameter="1.6764"/>
 <pad name="RXO" x="1.27" y="11.43" drill="0.8" diameter="1.6764"/>
 <pad name="TXI" x="1.27" y="13.97" drill="0.8" diameter="1.6764"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="21"/>
+<wire x1="0" y1="15.24" x2="12.7" y2="15.24" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="21"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="21"/>
 <pad name="TXO2" x="11.43" y="1.27" drill="0.8" diameter="1.6764"/>
 <pad name="RXI2" x="11.43" y="3.81" drill="0.8" diameter="1.6764"/>
 <pad name="GDN" x="11.43" y="6.35" drill="0.8" diameter="1.6764"/>
 <pad name="HV" x="11.43" y="8.89" drill="0.8" diameter="1.6764"/>
 <pad name="RXI" x="11.43" y="11.43" drill="0.8" diameter="1.6764"/>
 <pad name="TXO" x="11.43" y="13.97" drill="0.8" diameter="1.6764"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="21"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="21"/>
-<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="21"/>
-<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.127" layer="47"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.127" layer="47"/>
-<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.127" layer="47"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="47"/>
 </package>
 <package name="ARDUINOR3">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin</description>
-<wire x1="0" y1="0" x2="66.04" y2="0" width="0.127" layer="21"/>
-<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.127" layer="21"/>
-<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.127" layer="21"/>
-<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0.127" layer="21"/>
-<wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0.127" layer="21"/>
-<wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0.127" layer="21"/>
-<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.127" layer="21"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="66.04" y2="0" width="0" layer="21"/>
+<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0" layer="21"/>
+<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0" layer="21"/>
+<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0" layer="21"/>
+<wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0" layer="21"/>
+<wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0" layer="21"/>
+<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0" layer="21"/>
+<wire x1="64.516" y1="53.34" x2="0" y2="53.34" width="0" layer="21"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="21"/>
 <circle x="15.24" y="50.8" radius="1.796" width="0.127" layer="51"/>
 <circle x="13.97" y="2.54" radius="1.796" width="0.127" layer="51"/>
 <circle x="66.04" y="35.56" radius="1.796" width="0.127" layer="51"/>
@@ -416,29 +379,49 @@
 <pad name="SCL" x="18.796" y="50.8" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="RESERVED" x="27.94" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
-<wire x1="0" y1="3.81" x2="-1.778" y2="3.81" width="0.127" layer="47"/>
-<wire x1="-1.778" y1="3.81" x2="-1.778" y2="12.7" width="0.127" layer="47"/>
-<wire x1="-1.778" y1="12.7" x2="0" y2="12.7" width="0.127" layer="47"/>
-<wire x1="0" y1="44.45" x2="-6.604" y2="44.45" width="0.127" layer="47"/>
-<wire x1="-6.604" y1="44.45" x2="-6.604" y2="31.75" width="0.127" layer="47"/>
-<wire x1="-6.604" y1="31.75" x2="0" y2="31.75" width="0.127" layer="47"/>
+<text x="33.528" y="3.7999" size="1.016" layer="21" font="vector" rot="R90">RST</text>
+<text x="34.7523" y="3.81" size="1.016" layer="21" font="vector">3v</text>
+<text x="37.5463" y="3.81" size="1.016" layer="21" font="vector">5v</text>
+<text x="40.7771" y="3.81" size="1.016" layer="21" font="vector">Gnd</text>
+<text x="44.7853" y="3.81" size="1.016" layer="21" font="vector">Vin</text>
+<text x="54.1121" y="0.4623" size="1.016" layer="21" font="vector">Analog In</text>
+<text x="50.419" y="3.81" size="1.016" layer="21" font="vector">0</text>
+<text x="52.959" y="3.81" size="1.016" layer="21" font="vector">1</text>
+<text x="55.499" y="3.81" size="1.016" layer="21" font="vector">2</text>
+<text x="58.039" y="3.81" size="1.016" layer="21" font="vector">3</text>
+<text x="60.579" y="3.81" size="1.016" layer="21" font="vector">4</text>
+<text x="63.119" y="3.81" size="1.016" layer="21" font="vector">5</text>
+<text x="23.368" y="49.911" size="1.016" layer="21" font="vector" rot="R270">ARef</text>
+<text x="25.908" y="49.784" size="1.016" layer="21" font="vector" rot="R270">gnd</text>
+<text x="30.099" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
+<text x="32.639" y="49.53" size="1.016" layer="21" font="vector" rot="R180">12</text>
+<text x="35.179" y="49.53" size="1.016" layer="21" font="vector" rot="R180">11</text>
+<text x="37.719" y="49.53" size="1.016" layer="21" font="vector" rot="R180">10</text>
+<text x="39.751" y="49.53" size="1.016" layer="21" font="vector" rot="R180">9</text>
+<text x="42.291" y="49.53" size="1.016" layer="21" font="vector" rot="R180">8</text>
+<text x="46.355" y="49.53" size="1.016" layer="21" font="vector" rot="R180">7</text>
+<text x="48.895" y="49.53" size="1.016" layer="21" font="vector" rot="R180">6</text>
+<text x="51.435" y="49.53" size="1.016" layer="21" font="vector" rot="R180">5</text>
+<text x="53.975" y="49.53" size="1.016" layer="21" font="vector" rot="R180">4</text>
+<text x="56.515" y="49.53" size="1.016" layer="21" font="vector" rot="R180">3</text>
+<text x="59.055" y="49.53" size="1.016" layer="21" font="vector" rot="R180">2</text>
+<text x="61.595" y="49.53" size="1.016" layer="21" font="vector" rot="R180">1</text>
+<text x="64.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
+<text x="31.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
+<text x="50.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
+<text x="18.288" y="49.911" size="1.016" layer="21" font="vector" rot="R270">SCL</text>
+<text x="20.828" y="49.911" size="1.016" layer="21" font="vector" rot="R270">SDA</text>
+<text x="30.988" y="3.7999" size="1.016" layer="21" font="vector" rot="R90">IOr</text>
+<wire x1="0" y1="3.81" x2="-1.778" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="3.81" x2="-1.778" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="12.7" x2="0" y2="12.7" width="0.127" layer="21"/>
+<wire x1="0" y1="44.45" x2="-6.604" y2="44.45" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="44.45" x2="-6.604" y2="31.75" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="31.75" x2="0" y2="31.75" width="0.127" layer="21"/>
 <hole x="13.97" y="2.54" drill="3.2"/>
 <hole x="66.04" y="7.62" drill="3.2"/>
 <hole x="15.24" y="50.8" drill="3.2"/>
 <hole x="66.04" y="35.56" drill="3.2"/>
-<wire x1="0" y1="0" x2="66.04" y2="0" width="0.127" layer="47"/>
-<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.127" layer="47"/>
-<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.127" layer="47"/>
-<wire x1="68.58" y1="5.08" x2="68.58" y2="38.1" width="0.127" layer="47"/>
-<wire x1="68.58" y1="38.1" x2="66.04" y2="40.64" width="0.127" layer="47"/>
-<wire x1="66.04" y1="40.64" x2="66.04" y2="52.07" width="0.127" layer="47"/>
-<wire x1="66.04" y1="52.07" x2="64.77" y2="53.34" width="0.127" layer="47"/>
-<wire x1="64.77" y1="53.34" x2="0" y2="53.34" width="0.127" layer="47"/>
-<wire x1="0" y1="53.34" x2="0" y2="44.45" width="0.127" layer="47"/>
-<wire x1="0" y1="31.75" x2="0" y2="12.7" width="0.127" layer="47"/>
-<wire x1="0" y1="3.81" x2="0" y2="0" width="0.127" layer="47"/>
-<text x="27.94" y="24.13" size="1.778" layer="25">ARDUINO</text>
-<wire x1="0" y1="53.34" x2="64.516" y2="53.34" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1522,6 +1505,10 @@ type 0204, grid 5 mm</description>
 <package name="E2,5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 6 mm</description>
+<wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
@@ -1535,7 +1522,6 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
-<text x="-3.81" y="0" size="1.27" layer="21">+</text>
 </package>
 </packages>
 </library>
@@ -2227,7 +2213,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$32">
 <contactref element="GPSCON" pad="TX"/>
-<contactref element="LOGIC" pad="TI02"/>
+<contactref element="LOGIC" pad="TXI2"/>
 <wire x1="45.72" y1="14.986" x2="49.022" y2="14.986" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$10">

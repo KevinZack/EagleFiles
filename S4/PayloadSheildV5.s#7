@@ -239,7 +239,7 @@
 <pad name="NOTUSED3" x="1.27" y="6.35" drill="1" diameter="1.9304"/>
 <pad name="NOTUSED2" x="1.27" y="8.89" drill="1" diameter="1.9304"/>
 <pad name="NOTUSED1" x="1.27" y="11.43" drill="1" diameter="1.9304" shape="square"/>
-<text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="25">&gt;NAME</text>
 <wire x1="0" y1="0" x2="19.05" y2="0" width="0.127" layer="20"/>
 <wire x1="19.05" y1="0" x2="19.05" y2="15.24" width="0.127" layer="20"/>
 <wire x1="19.05" y1="15.24" x2="0" y2="15.24" width="0.127" layer="20"/>
